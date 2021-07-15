@@ -39,7 +39,7 @@ en: &DEFAULT_EN
 
   timeline:
     title: "About"
-    text: "Lorem ipsum timeline"
+    text: ""
     section: timeline
     # left is the default
     #start_align: "left"

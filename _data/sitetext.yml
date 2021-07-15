@@ -61,10 +61,6 @@ en: &DEFAULT_EN
   team:
     title: "Team"
     text: "Meet our awesome team."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    title: "TEAM"
-    text: "Meet our awesome team."
     section: team
     people:
       - name: "Viraj Singh"

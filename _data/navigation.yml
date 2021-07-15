@@ -17,12 +17,12 @@ en: &DEFAULT_EN
       section: portfolio
     - title: "Ethics"
       section: ethics
+    - title: "Outreach"
+      section: outreach
     - title: "About us"
       section: timeline
     - title: "Team"
       section: team
-    - title: "Contact"
-      section: contact
 
 en-US:
   <<: *DEFAULT_EN

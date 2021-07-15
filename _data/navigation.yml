@@ -15,6 +15,8 @@ en: &DEFAULT_EN
       section: services
     - title: "Lessons"
       section: portfolio
+    - title: "Ethics"
+      section: ethics
     - title: "About us"
       section: timeline
     - title: "Team"

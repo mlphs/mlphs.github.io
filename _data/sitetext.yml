@@ -30,7 +30,7 @@ en: &DEFAULT_EN
       - title: "Discuss Ethical AI"
         desc: "Actively discuss ethical AI and ML."
         icon: fas fa-comments
-
+        
   ethics:
     title: "Ethics"
     text: "Coming soon."

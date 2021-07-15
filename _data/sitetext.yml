@@ -31,6 +31,11 @@ en: &DEFAULT_EN
         desc: "Actively discuss ethical AI and ML."
         icon: fas fa-comments
 
+  ethics:
+    title: "Ethics"
+    text: "Coming soon."
+    section: ethics
+        
   portfolio:
     title: "Lessons"
     text: "Coming soon."

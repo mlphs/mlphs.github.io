@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Princeton High School
+    text: Machine Learning Club
     button: Tell Me More
     buttonlink: "#services"
 

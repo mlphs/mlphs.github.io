@@ -75,7 +75,7 @@ en: &DEFAULT_EN
     people:
       - name: "Viraj Singh"
         role: "Founder & President, Head of Technical Content"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/viraj.png
       - name: "Maya Lerman"
         role: "Head of Ethics"
         image: assets/img/team/500x500.jpg
@@ -87,7 +87,7 @@ en: &DEFAULT_EN
         image: assets/img/team/500x500.jpg
       - name: "Graciela Elia"
         role: "Advisor"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/mrselia.png
 
   contact:
     title: "Contact Us"

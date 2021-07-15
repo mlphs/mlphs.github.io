@@ -1,12 +1,12 @@
 ---
-title: Lesson 1: What is Artificial Intelligence?
-subtitle: An Introduction
+title: What is Artificial Intelligence?
+subtitle: Lesson 1
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/04-full.jpg
 alt: 
 
 caption:
   title: What is Artificial Intelligence?
-  subtitle: An Introduction
+  subtitle: Lesson 1
   thumbnail: assets/img/portfolio/04-thumbnail.jpg
 ---
 Movies and book have depicted a generalized AI, one that can answer any question we might have, and do anything a human can do. Unfortunately, this is not realistic. 

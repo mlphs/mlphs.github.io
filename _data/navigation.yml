@@ -16,7 +16,7 @@ en: &DEFAULT_EN
     - title: "Lessons"
       section: portfolio
     - title: "About us"
-      section: about
+      section: timeline
     - title: "Team"
       section: team
     - title: "Contact"

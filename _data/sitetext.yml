@@ -44,11 +44,11 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: ""
+      - title: "Founding"
+        year: "January 2021"
+        desc: "An AI education is not accessible at the high school level. To fill this gap, we created the Artificial Intelligence & Machine Learning Club at Princeton High School."
         image: assets/img/timeline/1.jpg
-        alt:
+        alt: 
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"

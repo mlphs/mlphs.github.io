@@ -78,13 +78,13 @@ en: &DEFAULT_EN
         image: assets/img/team/viraj.png
       - name: "Maya Lerman"
         role: "Head of Ethics"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/maya.png
       - name: "Shyam Parikh"
         role: "Head of Marketing"
         image: assets/img/team/shyam.png
       - name: "Sofia Prenner"
         role: "Head of Outreach"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/sofia.png
       - name: "Graciela Elia"
         role: "Advisor"
         image: assets/img/team/mrselia.png

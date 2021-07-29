@@ -18,15 +18,9 @@ The process of learning is how anything can make decisions. Humans, animals, or 
 </p>
 
 <p align="left">
-We will discuss three types of learning:
-</p>
-<p align="left">
-1. <b>Reinforcement learning</b> is the process of learning in an environment through feedback from an AI's behavior. Think about how babies learn to walk. Nobody teaches a baby how to walk, but they learn from their experiences of practicing and stumbling, until they can put one foot in front of the other.
-</p>
-<p align="left">
-2. <b>Unsupervised learning</b> is the process of learning *without* training labels. It is also known as clustering or grouping. Sites like Youtube use unsupervised learning to find patterns and frames of videos, and compress those frames so videos can be streamed to us quickly.
-</p>
-<p align="left">
+We will discuss three types of learning: <br>
+1. <b>Reinforcement learning</b> is the process of learning in an environment through feedback from an AI's behavior. Think about how babies learn to walk. Nobody teaches a baby how to walk, but they learn from their experiences of practicing and stumbling, until they can put one foot in front of the other. <br>
+2. <b>Unsupervised learning</b> is the process of learning *without* training labels. It is also known as clustering or grouping. Sites like Youtube use unsupervised learning to find patterns and frames of videos, and compress those frames so videos can be streamed to us quickly. <br>
 3. <b>Supervised learning</b> is the process of learning *with* training labels. It is the most widely used kind of learning when it comes to AI. We will discuss supervised learning in more detail below.
 </p>
   

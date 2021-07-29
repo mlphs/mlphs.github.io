@@ -67,6 +67,18 @@ Based on where the green triangle falls with respect to the decision boundary, w
 In this example, we had two features: mass and diameter. In other machine learning problems, we might have more features. 
 
 
+Based on what we've learned, let's do a quick exercise. 
+You are running a company and you want to develop learning algorithms to address each of the two problems.
+**Problem 1:** You have a large inventory of identical items. You want to predict how many of those items will sell over the next three months.
+**Problem 2:** You'd like software to examine individual customer accounts, and for each account decide whether it has been hacked/compromised. 
+
+Should you treat these as classification or regression problems?
+A) Treat both problems as classification problems
+B) Treat problem 1 as a classification problem and problem 2 as a regression problem
+C) Treat problem 1 as a regression problem and problem 2 as a classification problem
+D) Treat both problems as regression problems
+
+The correct answer is C.
 
 
 

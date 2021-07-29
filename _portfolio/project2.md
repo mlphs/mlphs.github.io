@@ -22,8 +22,6 @@ We will discuss three types of learning:
 To explain supervised learning, we will walk through a few examples.
 </p>
   
-## Supervised Learning
-
 ### Regression
 
 Suppose we have a dataset containing house sizes and prices in Portland, Oregon. Our goal is to predict housing prices. 

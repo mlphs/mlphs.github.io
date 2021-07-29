@@ -36,9 +36,11 @@ Instead of fitting a straight line, we could also fit a quadratic function to th
 
 This is an example of a supervised learning algorithm. Supervised learning refers to the fact that we provide the algorithm with a dataset where the "right answers" are given. 
 
-In housing problem, for every example in the dataset, we provided the right price that the house sold for. Our task was to produce more of these right answers. This is called a regression problem, where we predict continous valued outputs (which, in this case, is price of the house).
+In the housing problem, for every example in the dataset, we provided the right price that the house sold for. Our task was to produce more of these right answers. This is called a regression problem, where we predict continous valued outputs (which, in this case, is price of the house).
 
 Now, we will look at another supervised learning example.
+
+Suppose we have a bunch of donuts and bagels, and we want to be able to determine whether food is a donut or bagel. One question we want to keep in mind is as follows: what is the chance our food is a donut or bagel?
 
 
 

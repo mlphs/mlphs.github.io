@@ -21,8 +21,7 @@ We will discuss three types of learning:
 To explain supervised learning, we will walk through an example.
 
 Suppose we have a dataset containing house sizes and prices in Portland, Oregon. Our goal is to predict housing prices. 
-
-<img src="https://github.com/mlphs/mlphs.github.io/blob/master/assets/img/portfolio/project2/housing-regression.png" width="100" height="100">
+![alt text](https://github.com/mlphs/mlphs.github.io/blob/master/assets/img/portfolio/project2/housing-regression.png  =200x)
 
 Given the data, let's say we have a friend who owns a house that is 750 sq feet and our friend wants to know how much to sell the house for. 
 One learning algorithm would be to put straight line through data and based on that, maybe house sell for 175k.

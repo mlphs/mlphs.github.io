@@ -91,7 +91,7 @@ D) Treat both problems as regression problems\
 The correct answer is C.
 
 ### Sources
-1. [Lecture 1.2 — Supervised Learning — Machine Learning | Andrew Ng](https://www.youtube.com/watch?v=bQI5uDxrFfA)
+1. [Lecture 1.2 — Supervised Learning — Machine Learning by Andrew Ng](https://www.youtube.com/watch?v=bQI5uDxrFfA)
 2. [Supervised Learning: Crash Course AI #2](https://www.youtube.com/watch?v=4qVRBYAdLAo&list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b&index=3)
 
 

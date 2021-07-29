@@ -27,4 +27,6 @@ Suppose we have a dataset containing house sizes and prices in Portland, Oregon.
 
 Given the data, let's say we have a friend who owns a house that is 750 sq feet and our friend wants to know how much to sell the house for. 
 One learning algorithm would be to put straight line through data and based on that, maybe house sell for 175k.
-![alt text](https://github.com/mlphs/mlphs.github.io/blob/master/assets/img/portfolio/project2/housing-regression-linear.png?raw=true)
+
+<img src="/assets/img/portfolio/project2/housing-regression-linear.png" width="500">
+

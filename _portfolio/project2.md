@@ -22,7 +22,7 @@ To explain supervised learning, we will walk through an example.
 
 Suppose we have a dataset containing house sizes and prices in Portland, Oregon. Our goal is to predict housing prices. 
 
-<img src="/assets/img/portfolio/project2/housing-regression.png" width="200">
+<img src="/assets/img/portfolio/project2/housing-regression.png" width="500">
 
 
 Given the data, let's say we have a friend who owns a house that is 750 sq feet and our friend wants to know how much to sell the house for. 

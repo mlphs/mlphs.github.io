@@ -1,13 +1,13 @@
 ---
 title: Supervised Learning
 subtitle: Lesson 2
-image: assets/img/portfolio/01-thumbnail.png
+image: assets/img/portfolio/project2/donut-classification-2d-dboundary.png
 alt: 
 
 caption:
   title: Supervised Learning
   subtitle: Lesson 2
-  thumbnail: assets/img/portfolio/01-thumbnail.png
+  thumbnail: assets/img/portfolio/project2/donut-classification-2d-dboundary.png
 ---
 Humans are not born with many skills. We need to learn how to sort mail, land airplanes, and have friendly conversations. Computer scientists have tried to teach computers how to learn like we do, with a process called **supervised learning**.
 
@@ -19,6 +19,10 @@ We will discuss three types of learning:
 3. **Supervised learning** is the process of learning *with* training labels. It is the most widely used kind of learning when it comes to AI. We will discuss supervised learning in more detail below.
 
 To explain supervised learning, we will walk through an example.
+
+## Supervised Learning
+
+### Regression
 
 Suppose we have a dataset containing house sizes and prices in Portland, Oregon. Our goal is to predict housing prices. 
 
@@ -38,12 +42,13 @@ This is an example of a supervised learning algorithm. Supervised learning refer
 
 In the housing problem, for every example in the dataset, we provided the right price that the house sold for. Our task was to produce more of these right answers. This is called a regression problem, where we predict continous valued outputs (which, in this case, is price of the house).
 
-Now, we will look at another supervised learning example.
+Next, we will look at another supervised learning example.
+
+### Classification
 
 Suppose we have a bunch of donuts and bagels, and we want to be able to determine whether or not some food is a donut. Suppose we have 5 examples of donuts and 5 examples of bagels, and we know the mass of each food item in grams.
 
 <img src="/assets/img/portfolio/project2/donut-classification.png" width="500">
-
 
 Let's say we have a food item. We want to estimate the probability that the food item is a donut. 
 
@@ -66,6 +71,8 @@ Based on where the green triangle falls with respect to the decision boundary, w
 
 In this example, we had two features: mass and diameter. In other machine learning problems, we might have more features. 
 
+### Exercise
+
 
 Based on what we've learned, let's do a quick exercise. 
 You are running a company and you want to develop learning algorithms to address each of the two problems.
@@ -80,5 +87,8 @@ D) Treat both problems as regression problems
 
 The correct answer is C.
 
+### Sources
+1. https://www.youtube.com/watch?v=bQI5uDxrFfA
+2. https://www.youtube.com/watch?v=4qVRBYAdLAo&list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b&index=3
 
 

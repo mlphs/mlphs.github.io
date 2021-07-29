@@ -40,7 +40,33 @@ In the housing problem, for every example in the dataset, we provided the right 
 
 Now, we will look at another supervised learning example.
 
-Suppose we have a bunch of donuts and bagels, and we want to be able to determine whether food is a donut or bagel. One question we want to keep in mind is as follows: what is the chance our food is a donut or bagel?
+Suppose we have a bunch of donuts and bagels, and we want to be able to determine whether or not some food is a donut. Suppose we have 5 examples of donuts and 5 examples of bagels, and we know the mass of each food item in grams.
+
+<img src="/assets/img/portfolio/project2/donut-classification.png" width="500">
+
+
+Let's say we have a food item. We want to estimate the probability that the food item is a donut. 
+
+This is an example of a classification problem, where we have discrete valued outputs (0 or 1). Note that it is possible to have more than two possible values for the output (e.g., if we wanted to classify food as donut, bagel, or croissant). 
+
+We can also draw our donut and bagel data as follows. Note that we take the original plot of the dataset and map it down to a real line. The orange triangles indicate bagel examples (non-donut examples) and the blue triangles indicate donut examples. 
+
+<img src="/assets/img/portfolio/project2/donut-classification-1d.png" width="500">
+
+
+In this example, we use only one feature or attribute (i.e., mass in grams). Suppose we know the diameter of the food items in centimeters in addition to the mass in grams. 
+
+<img src="/assets/img/portfolio/project2/donut-classification-2d.png" width="500">
+
+Let's say we have a food item, as indicated by the green triangle. We want to estimate the probability that the food item is a donut. The learning algorithm can draw a straight line through the data to try to separate the donuts from bagels. 
+
+<img src="/assets/img/portfolio/project2/donut-classification-2d-dboundary.png" width="500">
+
+Based on where the green triangle falls with respect to the decision boundary, we would decide it is more likely that the food item is a bagel than it might be a donut. So, we would classify the food item as a bagel. 
+
+In this example, we had two features: mass and diameter. In other machine learning problems, we might have more features. 
+
+
 
 
 

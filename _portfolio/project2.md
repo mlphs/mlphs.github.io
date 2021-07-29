@@ -9,8 +9,10 @@ caption:
   subtitle: Lesson 2
   thumbnail: assets/img/portfolio/project2/donut-classification-2d-dboundary.png
 ---
+<p align="left">
 Humans are not born with many skills. We need to learn how to sort mail, land airplanes, and have friendly conversations. Computer scientists have tried to teach computers how to learn like we do, with a process called **supervised learning**.
-
+</p>
+  
 The process of learning is how anything can make decisions. Humans, animals, or AI systems can adapt their behavior based on their experiences.
 
 We will discuss three types of learning:

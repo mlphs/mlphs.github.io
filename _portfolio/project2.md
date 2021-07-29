@@ -26,7 +26,19 @@ Suppose we have a dataset containing house sizes and prices in Portland, Oregon.
 
 
 Given the data, let's say we have a friend who owns a house that is 750 sq feet and our friend wants to know how much to sell the house for. 
-One learning algorithm would be to put straight line through data and based on that, maybe house sell for 175k.
+One learning algorithm would be to put straight line through data and based on that, maybe sell the house for 175k.
 
 <img src="/assets/img/portfolio/project2/housing-regression-linear.png" width="500">
+
+Instead of fitting a straight line, we could also fit a quadratic function to the data and based on that, maybe sell the house for 240k.
+
+<img src="/assets/img/portfolio/project2/housing-regression-quadratic.png" width="500">
+
+This is an example of a supervised learning algorithm. Supervised learning refers to the fact that we provide the algorithm with a dataset where the "right answers" are given. 
+
+In housing problem, for every example in the dataset, we provided the right price that the house sold for. Our task was to produce more of these right answers. This is called a regression problem, where we predict continous valued outputs (which, in this case, is price of the house).
+
+Now, we will look at another supervised learning example.
+
+
 

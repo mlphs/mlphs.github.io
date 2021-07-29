@@ -19,4 +19,10 @@ We will discuss three types of learning:
 3. **Supervised learning** is the process of learning *with* training labels. It is the most widely used kind of learning when it comes to AI. We will discuss supervised learning in more detail below.
 
 To explain supervised learning, we will walk through an example.
+
+Suppose we have a dataset containing house sizes and prices in Portland, Oregon. Our goal is to predict housing prices. 
 ![alt text](https://github.com/mlphs/mlphs.github.io/blob/master/assets/img/portfolio/project2/housing-regression.png?raw=true)
+
+Given the data, let's say we have a friend who owns a house that is 750 sq feet and our friend wants to know how much to sell the house for. 
+One learning algorithm would be to put straight line through data and based on that, maybe house sell for 175k.
+![alt text](https://github.com/mlphs/mlphs.github.io/blob/master/assets/img/portfolio/project2/housing-regression-linear.png?raw=true)

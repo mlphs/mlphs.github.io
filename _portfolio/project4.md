@@ -39,3 +39,8 @@ Instead of answering yes or no like in the perceptron, each neuron in the hidden
 The output layer is where the final hidden layer outputs are mathematically combined to answer the problem.
 Let’s say we are trying to label an image as a dog. We might have a single output representing a single answer (that the image is a dog). But, if there are many answers, we’ll need a bunch  of output neurons. Each output neuron corresponds to the probability for each label (e.g. dog, cat, bird, and more). We pick the answer with the highest probability. 
 </p>
+
+
+### Sources
+1. [Neural Networks and Deep Learning: Crash Course AI #3](https://www.youtube.com/watch?v=oV3ZY6tJiA0)
+2. [TensorFlow NN+Drop out+Batch Norm(LB 0.515)](https://www.kaggle.com/sbongo/tensorflow-nn-drop-out-batch-norm-lb-0-515)

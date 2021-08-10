@@ -127,6 +127,9 @@ After we have trained the program, we have to test it on a bunch of new data to 
 | Actually Bagel     | 2                     |     | 73                    | 75        |
 | Total              | 10                    |     | 90                    | 100 Total |        
 
+<p align="left">
+
+</p>
 
 <p align="left">
 Test Accuracy = (8 + 73)/ 100 = 81%

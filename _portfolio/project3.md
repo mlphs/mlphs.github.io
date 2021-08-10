@@ -121,8 +121,34 @@ Now, we can do this many more times to train the program's perceptron.
 After we have trained the program, we have to test it on a bunch of new data to see how well the program learned. We can visualize the results in a confusion matrix. We can add together what the program got right and dividing by the total number of items to get the test accuracy. 
 </p>
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+|                | Predicted Donut | Predicted Bagel | Total     |
+| Actually Donut | 8               | 17              | 25        |
+| Actually Bagel | 2               | 73              | 75        |
+| Total          | 10              | 90              | 100 Total |        
+
+(8 + 73)/ 100 = 81%
+
+<p align="left">
+To really understand what is wrong, we can look at the <b>precision</b> and <b>recall</b>.
+</p>
+
+<p align="left">
+<b>Precision</b> tells you how much you should trust your program when it says it found something. Of the 10 donuts we gave the program, it said 8 of them were actually donuts, so the program is 80% precise, and we can be 80% sure that the program is giving us donuts when the items are actually donuts. 
+</p>
+
+<p align="left">
+<b>Recall</b> tells you how much your program can find the thing you are looking for. Of the 25 items that were donuts, the program correctly labelled 8 of them. So, the program's recall is 32%.
+</p>
+
+<p align="left">
+The precision and recall depend on the criteria the program is using to make a decision. As we can see in the graph below, the program generally thinks that donuts generally have smaller diameter and mass than bagels.
+</p>
+
+<img src="/assets/img/portfolio/project3/donut-bagel-perceptron.png" width="500">
+
+<p align="left">
+When it comes to classifying donuts, the program has high precision because if it says something is a donut, we're pretty sure it is actually a donut. But the program has some recall, because some donuts can be bigger than the donuts we used to train the perceptron program and might fall in the bagel zone. <br>
+Figuring out what criteria to use is the key for most AI challenges. If we wanted better  accuracy for this donut vs. bagel problem, we could have used inputs other than mass and diameter, such as checking for whether the item has seeds or sprinkles.
+</p>
+
 

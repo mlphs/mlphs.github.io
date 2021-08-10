@@ -121,11 +121,11 @@ Now, we can do this many more times to train the program's perceptron.
 After we have trained the program, we have to test it on a bunch of new data to see how well the program learned. We can visualize the results in a confusion matrix. We can add together what the program got right and dividing by the total number of items to get the test accuracy. 
 </p>
 
-|                | Predicted Donut | Predicted Bagel | Total     |
-| :---           |    :----:       |          :----: |      ---: |
-| Actually Donut | 8               | 17              | 25        |
-| Actually Bagel | 2               | 73              | 75        |
-| Total          | 10              | 90              | 100 Total |        
+|                    | Predicted Donut     | Predicted Bagel     | Total     |
+| :---               |    :----:           |              :----: |      ---: |
+| Actually Donut     | 8                   | 17                  | 25        |
+| Actually Bagel     | 2                   | 73                  | 75        |
+| Total              | 10                  | 90                  | 100 Total |        
 
 
 <p align="left">

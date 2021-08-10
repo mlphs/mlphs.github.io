@@ -46,3 +46,27 @@ If the sum is less than the bias, then the neuron will output a 0, which could i
 If the sum is greater than or equal to the bias, then the neuron will output a 1, which indicates the opposite result. <br>
 An AI can be trained to make a decision about anything, where you have enough data and supervised labels.
 </p>
+
+### Bagels vs. Donuts Example
+<p align="left">
+Bagels and donuts might look super similar to each other, so we want to be able to distinguish between the two. <br>
+Suppose we measure the mass and diameter of bagels, and supervise a program so it gets better at labeling them. Initially, the program does not know anything about bagels, donuts, or what their masses or diameters might be. The program will initially use random weights for mass, diameter, and bias to make a decision between whether something is a donut or bagel. As the program learns, the weights will be updated. <br>
+We can use different mathematical functions to account for how far an AI is from the right decision. <br>
+</p>
+
+<p align="left">
+We'll keep it simple and use a step function (an either-or-choice, like bagel or donut).
+</p>
+
+<p align="left">
+Let consider a mixed bag of donuts and bagels. Suppose we pull out our first item, and it happens to be a donut with a mass of 34 grams and a diameter of 7.8 cm. The perceptron takes these inputs, multiplies them by their respective weights, and adds them together.
+</p>
+
+<p align="left">
+The bias is like the bagel threshold. If the summer is greater than or equal to the bias (which is the threshold for the neuron firing), the program will output bagel. If the sum is less than the bias (i.e. it has not crossed the bagel threshold), the program will output donut. 
+</p>
+
+
+<p align="left">
+We can think of this program as a graph, with the mass on one axis and the diameter on the other. The weights and bias are used to calculate a line called a decision boundary on the graph, which separates bagels from donuts. 
+</p>

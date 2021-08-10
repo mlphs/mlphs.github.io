@@ -34,7 +34,7 @@ If the perceptron was wrong, he would push the no-button, which would set off a 
 <p align="left">
 Nowadays, we can use modern computers to program AI to behave like neurons. <br>
 First the artificial neurons receives inputs multiplied by different weights, which correspond to the strength of each signal. <br>
-The threshold is represented by a special weight called the **bias**, which can be adjusted to raise or lower the neuron's eagerness to fire. <br>
+The threshold is represented by a special weight called the <b>bias</b>, which can be adjusted to raise or lower the neuron's eagerness to fire. <br>
 </p>
   
 <img src="/assets/img/portfolio/project3/perceptron.png" width="500">
@@ -122,7 +122,7 @@ After we have trained the program, we have to test it on a bunch of new data to 
 </p>
 
 |                    | Predicted Donut       | Predicted Bagel       | Total     |
-| :---               |    :------:           |              :------: |      ---: |
+| :---               | :------:              |              :------: |      ---: |
 | Actually Donut     | 8                     | 17                    | 25        |
 | Actually Bagel     | 2                     | 73                    | 75        |
 | Total              | 10                    | 90                    | 100 Total |        

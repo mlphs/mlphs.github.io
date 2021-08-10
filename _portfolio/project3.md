@@ -18,11 +18,13 @@ He attached the perceptron to a camera. He would show the camera a picture of a 
 </p>
 
 <p align="left">
-If the total charge was above its threshold, it would send a send an electric signal to turn on a light. (Yes, that's a triangle!)
+If the total charge was above its threshold, it would send a send an electric signal to turn on a light. <br>
+>> Yes, that's a triangle!
 </p>
 
 <p align="left">
-But, if the electric charge was too weak to hit the threshold, the machine would not do anything, and the light would not turn on. (No, that's not a triangle!)
+But, if the electric charge was too weak to hit the threshold, the machine would not do anything, and the light would not turn on. <br>
+>> No, that's not a triangle!
 </p>
 
 <p align="left">

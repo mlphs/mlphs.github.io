@@ -21,12 +21,24 @@ The architecture includes neurons and their connections. The weights are numbers
 To better understand optimization, let’s start with an example. <br> <br>
 
 Suppose we have a dataset containing house sizes and prices in Portland, Oregon. Our goal is to predict housing prices. A simple way to do this is by graphing those data points.. Then, we can look for a pattern in that graph to make predictions. A way computers do this is with an optimization strategy called linear regression. We start by drawing a random straight line on the graph, which kind of fits the data points. <br> <br>
+</p>
 
+<img src="/assets/img/portfolio/project5/housing-regression.png" width="500">
+
+<p align="left">
 To optimize, we need to know how incorrect this guess is. Hence, we calculate the distance between the line and each of the data points, add it all up, and that gives us the error (note that we are quantifying how big of a mistake we made). <br> <br>
+</p>
+  
+<img src="/assets/img/portfolio/project5/housing-linear-regression-1.png" width="500">
 
+<p align="left">
 The goal of linear regression is to adjust the line to make the error as small as possible.
-We want the line to fit the training data as much as it can. The result is called the line of best fit. We can use this straight line to predict how many swimmers will show up for any temperature. <br> <br>
+We want the line to fit the training data as much as it can. The result is called the line of best fit. We can use this straight line to predict the price of a house in Portland, Oregon. <br> <br>
+</p>
+  
+<img src="/assets/img/portfolio/project5/housing-linear-regression-2.png" width="500">
 
+<p align="left">
 To get more accurate results, we might want to consider more than two features, like for example adding the number of bathrooms in the residence,  which would turn our 2d graph into 3d. And our line of best fit would be more like a plane of best fit. But if we added a fourth feature, like the number of floors in the residence,  we can’t visualize this anymore. As we consider more features, we add more dimensions to the graph, the optimization problem gets trickier, and fitting the training data is tougher. <br> <br>
 
 This is where neural networks come in handy. <br> <br>

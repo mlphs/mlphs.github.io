@@ -1,11 +1,11 @@
 ---
-title: Neural Networks (Part 1)
+title: Neural Networks (Pt. 1)
 subtitle: Lesson 4
 image: assets/img/portfolio/project4/neural-network-architecture.png
 alt: 
 
 caption:
-  title: Neural Networks (Part 1)
+  title: Neural Networks (Pt. 1)
   subtitle: Lesson 4
   thumbnail: assets/img/portfolio/project4/neural-network-architecture.png
 ---

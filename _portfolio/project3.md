@@ -49,8 +49,8 @@ An AI can be trained to make a decision about anything, where you have enough da
 
 ### Bagels vs. Donuts Example
 <p align="left">
-Bagels and donuts might look super similar to each other, so we want to be able to distinguish between the two. <br>
-Suppose we measure the mass and diameter of bagels, and supervise a program so it gets better at labeling them. Initially, the program does not know anything about bagels, donuts, or what their masses or diameters might be. The program will initially use random weights for mass, diameter, and bias to make a decision between whether something is a donut or bagel. As the program learns, the weights will be updated. <br>
+Bagels and donuts might look super similar to each other, so we want to be able to distinguish between the two. <br> <br>
+Suppose we measure the mass and diameter of bagels, and supervise a program so it gets better at labeling them. Initially, the program does not know anything about bagels, donuts, or what their masses or diameters might be. The program will initially use random weights for mass, diameter, and bias to make a decision between whether something is a donut or bagel. As the program learns, the weights will be updated. <br> <br>
 We can use different mathematical functions to account for how far an AI is from the right decision. <br>
 </p>
 

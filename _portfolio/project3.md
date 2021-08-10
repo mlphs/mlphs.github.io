@@ -70,3 +70,59 @@ The bias is like the bagel threshold. If the summer is greater than or equal to 
 <p align="left">
 We can think of this program as a graph, with the mass on one axis and the diameter on the other. The weights and bias are used to calculate a line called a decision boundary on the graph, which separates bagels from donuts. 
 </p>
+
+<p align="left">
+If we represent this bagel as a data point, we would graph it at (20, 5). This data point is above the decision boundary, and therefore in the bagel zone. Thus, when we ask the program what the first item we pulled out of the bag is, the program will output bagel, which is wrong because the item is a donut. 
+</p>
+
+<img src="/assets/img/portfolio/project3/bagel-perceptron.png" width="500">
+
+<p align="left">
+Since the program is initially using random weights, the program essentially makes a random guess. We can help the program learn by updating its weights. So, we take an old weight and add a number calculated with an equation called an update rule.
+</p>
+
+<p align="left">
+Because our perceptron can be completely right or completely wrong, the update rule is relatively simple. 
+</p>
+
+
+<p align="left">
+If the program makes the right prediction of labelling the donut as a donut, we add 0 to the weight, and the weight stays the same.
+</p>
+
+<p align="left">
+But, if the program makes the wrong prediction and labels the donut as a bagel, the update rule has a value, which is a small positive or small negative number. We will add that value to the weight, and the weight will change.
+</p>
+
+<p align="left">
+Conceptually, this means the program learns from failure, but not from success. 
+</p>
+
+<p align="left">
+We pulled a donut out of the bag, and the program predicted that the item was a bagel. So, we will let the program know that it made the wrong choice, and it will consequently update its weights. <br>
+When the weights update, the decision boundary changes. The datapoint we added is now below the decision boundary line and in the donut zone.
+</p>
+
+<img src="/assets/img/portfolio/project3/donut-perceptron.png" width="500">
+
+<p align="left">
+Now, the program will classify another item with this mass and diameter as a donut. <br>
+Suppose we pull out a second item with a mass of 40 grams and a diameter of 2.5 cm. We give this to the program, and it predicts that the item is a donut correctly. The data point appeared below the decision boundary in the donut zone.
+</p>
+
+<img src="/assets/img/portfolio/project3/donut-perceptron-2.png" width="500">
+
+<p align="left">
+We let the program know that its prediction was correct, so the weights stay the same and so does the decision boundary. <br>
+Now, we can do this many more times to train the program's perceptron. 
+</p>
+
+<p align="left">
+After we have trained the program, we have to test it on a bunch of new data to see how well the program learned. We can visualize the results in a confusion matrix. We can add together what the program got right and dividing by the total number of items to get the test accuracy. 
+</p>
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+

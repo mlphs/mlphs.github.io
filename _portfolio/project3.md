@@ -1,7 +1,7 @@
 ---
 title: The Perceptron
 subtitle: Lesson 3
-image: assets/img/portfolio/project2/donut-classification-2d-dboundary.png
+image: assets/img/portfolio/project3/perceptron.png
 alt: 
 
 caption:
@@ -148,7 +148,10 @@ The precision and recall depend on the criteria the program is using to make a d
 <img src="/assets/img/portfolio/project3/donut-bagel-perceptron.png" width="500">
 
 <p align="left">
-When it comes to classifying donuts, the program has high precision because if it says something is a donut, we're pretty sure it is actually a donut. But the program has some recall, because some donuts can be bigger than the donuts we used to train the perceptron program and might fall in the bagel zone. <br>
+When it comes to classifying donuts, the program has high precision because if it says something is a donut, we're pretty sure it is actually a donut. But the program has some recall, because some donuts can be bigger than the donuts we used to train the perceptron program and might fall in the bagel zone.
+</p>
+
+<p align="left">
 Figuring out what criteria to use is the key for most AI challenges. If we wanted better  accuracy for this donut vs. bagel problem, we could have used inputs other than mass and diameter, such as checking for whether the item has seeds or sprinkles.
 </p>
 

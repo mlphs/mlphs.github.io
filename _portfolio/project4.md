@@ -18,6 +18,9 @@ Neural networks are better for tasks like image recognition. The secret to their
 All neural networks are made up of an input layer, an output layer, and any number of hidden layers in between. <br> <br> 
 
 There are many different arrangements, but we will look at the classic multilayer perceptron. 
+  
+<img src="/assets/img/portfolio/project4/neural-network-architecture.png" width="500">
+ 
 The input layer is where the neural network receives input data represented as numbers. 
 Each input neuron represents a single feature,which is some characteristic of the data.
 Features are straightforward if we are talking about something that’s already a number, (e.g. grams of sugar in a donut). But, just about anything can be represented as a number. Sounds can be represented as the amplitudes of the sound wave (so, each feature would have a number representing the amplitude at a moment in time). Words in a paragraph can be represented by how many times each word appears (so, each feature would be the frequency of one word). <br> <br>

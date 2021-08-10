@@ -132,7 +132,7 @@ After we have trained the program, we have to test it on a bunch of new data to 
 </p>
 
 <p align="left">
-Test Accuracy = (8 + 73)/ 100 = 81%
+<b>Test Accuracy</b> = (8 + 73)/ 100 = 81%
 </p>
 
 <p align="left">

@@ -122,6 +122,7 @@ After we have trained the program, we have to test it on a bunch of new data to 
 </p>
 
 |                | Predicted Donut | Predicted Bagel | Total     |
+| :---           |    :----:       |          :----: |      ---: |
 | Actually Donut | 8               | 17              | 25        |
 | Actually Bagel | 2               | 73              | 75        |
 | Total          | 10              | 90              | 100 Total |        

@@ -127,7 +127,10 @@ After we have trained the program, we have to test it on a bunch of new data to 
 | Actually Bagel | 2               | 73              | 75        |
 | Total          | 10              | 90              | 100 Total |        
 
-(8 + 73)/ 100 = 81%
+
+<p align="left">
+Test Accuracy = (8 + 73)/ 100 = 81%
+</p>
 
 <p align="left">
 To really understand what is wrong, we can look at the <b>precision</b> and <b>recall</b>.
@@ -156,3 +159,5 @@ Figuring out what criteria to use is the key for most AI challenges. If we wante
 </p>
 
 
+### Sources
+1. [Supervised Learning: Crash Course AI #2](https://www.youtube.com/watch?v=4qVRBYAdLAo&list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b&index=3)

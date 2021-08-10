@@ -75,7 +75,7 @@ We can think of this program as a graph, with the mass on one axis and the diame
 If we represent this bagel as a data point, we would graph it at (20, 5). This data point is above the decision boundary, and therefore in the bagel zone. Thus, when we ask the program what the first item we pulled out of the bag is, the program will output bagel, which is wrong because the item is a donut. 
 </p>
 
-<img src="/assets/img/portfolio/project3/bagel-perceptron.png" width="500">
+<img src="/assets/img/portfolio/project3/donut-perceptron.png" width="500">
 
 <p align="left">
 Since the program is initially using random weights, the program essentially makes a random guess. We can help the program learn by updating its weights. So, we take an old weight and add a number calculated with an equation called an update rule.
@@ -103,14 +103,14 @@ We pulled a donut out of the bag, and the program predicted that the item was a 
 When the weights update, the decision boundary changes. The datapoint we added is now below the decision boundary line and in the donut zone.
 </p>
 
-<img src="/assets/img/portfolio/project3/donut-perceptron.png" width="500">
+<img src="/assets/img/portfolio/project3/bagel-perceptron.png" width="500">
 
 <p align="left">
 Now, the program will classify another item with this mass and diameter as a donut. <br>
 Suppose we pull out a second item with a mass of 40 grams and a diameter of 2.5 cm. We give this to the program, and it predicts that the item is a donut correctly. The data point appeared below the decision boundary in the donut zone.
 </p>
 
-<img src="/assets/img/portfolio/project3/donut-perceptron-2.png" width="500">
+<img src="/assets/img/portfolio/project3/bagel-perceptron-2.png" width="500">
 
 <p align="left">
 We let the program know that its prediction was correct, so the weights stay the same and so does the decision boundary. <br>

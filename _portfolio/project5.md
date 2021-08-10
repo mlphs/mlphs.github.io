@@ -45,7 +45,8 @@ This is where neural networks come in handy. <br> <br>
 
 By connecting together many simple neurons with weights, a neural network can learn to solve complicated problems, where the line of best fit becomes a weird multi-dimensional function. <br> <br>
 
-
+  
+### Training Neural Networks
 To stick with the same example, the input layer of this neural network takes features like square footage of the house, the number of bathrooms, number of floors, and so on. The output layer predicts the price of the house. <br> <br>
 
 Let’s ignore the architecture of the neural network for now and focus on the weights. We begin by setting the weights to random numbers, like the random line on the graph we drew earlier. Note that this time, it’s not just one random line because we have lots of inputs, so it is a lot of lines that are combined together to make one function. <br> <br>
@@ -62,9 +63,17 @@ In these cases, the error is represented by what’s known as a loss function. M
 Backpropagation helps neurons learn. The basic goal is to look at the loss function and then assign blame to neurons back in the previous layers of the network. Some neurons’ calculations may have been more to blame for the error than others, so their weights will be adjusted more. <br> <br>
 
 This information is fed backwards, which is where the idea of backpropagation comes from. For example, the error from our output neuron would go back a layer and adjust the weights that get applied to our hidden layer neuron outputs. The error from our hidden layer neurons would go back a layer and adjust the weights that get applied to our features. <br> <br>
+</p>
 
+  
+### A Metaphor for Backpropogation
+<p align="left">
 Recall that our goal is to find the best combination of weights to get the lowest error. To explain the logic behind optimization with a metaphor, let’s imagine that weights in our neural network are like latitude and longitude coordinates on a map. The error of our neural network is the altitude -- lower is better. The neural network is where the explorer is on a quest to find the lowest point in the deepest valley. The latitude and longitude of that lowest point -- where the error is the smallest -- are the weights of the neural network’s global optimal solution. <br> <br>
+</p>
 
+<img src="/assets/img/portfolio/project5/hill-climbing.png" width="500">
+
+<p align="left">
 The neural network has no idea where this valley actually is. By randomly setting the initial weights of our neural network, we’re basically dumping our model in the middle of nowhere. All the model knows is its current latitude, longitude, and altitude. <br> <br>
 
 We might be lucky and be on the side of the deepest valley. However, we could also be at the top of the highest mountain somewhere far away. The only way to know is to explore by looking around and making a guess. <br> <br>
@@ -89,3 +98,8 @@ More data can be better for finding patterns and accuracy, as long as the comput
 
 Sometimes, backpropagation is too good at making a neural network fit to certain data. There are lots of coincidental relationships in big datasets. For example, the divorce rate in Maine may be correlated with U.S. margarine consumption, or skiing revenue may be correlated with the number of people dying by getting trapped in their bedsheets. Neural networks are really good at finding these kinds of relationships. This can be a big problem, because if we give a neural network some new data that doesn’t adhere  to these silly correlations, then it will probably make some strange errors. That’s a danger known as overfitting. <br> <br>
 </p>
+
+### Sources
+1. [Training Neural Networks: Crash Course AI #4](https://www.youtube.com/watch?v=oV3ZY6tJiA0)
+2. [TensorFlow NN+Drop out+Batch Norm(LB 0.515)](https://www.kaggle.com/sbongo/tensorflow-nn-drop-out-batch-norm-lb-0-515)
+3. [Understanding Hill Climbing Algorithm in Artificial Intelligence](https://www.section.io/engineering-education/understanding-hill-climbing-in-ai/)

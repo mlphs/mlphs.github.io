@@ -26,24 +26,24 @@ But, if the electric charge was too weak to hit the threshold, the machine would
 </p>
 
 <p align="left">
-At first, the perceptron was basically making random guesses. To train the perceptron with supervision, Rosenblatt used yes and no buttons. <br>
-If the perceptron was correct, he would push the yes-button, and nothing would change. <br>
+At first, the perceptron was basically making random guesses. To train the perceptron with supervision, Rosenblatt used yes and no buttons. <br> <br>
+If the perceptron was correct, he would push the yes-button, and nothing would change. <br> <br>
 If the perceptron was wrong, he would push the no-button, which would set off a chain of events that adjusted how much electricity crossed the synapses and adjusted the machine's threshold level. This made the perceptron more likely to get the answer correct next time. <br>
 </p>
   
 <p align="left">
 Nowadays, we can use modern computers to program AI to behave like neurons. <br>
-First the artificial neurons receives inputs multiplied by different weights, which correspond to the strength of each signal. <br>
+First the artificial neurons receives inputs multiplied by different weights, which correspond to the strength of each signal. <br> <br>
 The threshold is represented by a special weight called the <b>bias</b>, which can be adjusted to raise or lower the neuron's eagerness to fire. <br>
 </p>
   
 <img src="/assets/img/portfolio/project3/perceptron.png" width="500">
 
 <p align="left">
-All the inputs are multiplied by their respective weights, added together, and a mathematical function gets the result. <br>
-In the simplest AI systems, this function is called a step function, which can only output a 0 or 1. <br>
-If the sum is less than the bias, then the neuron will output a 0, which could indicate not-triangle (or, something different depending on the task). <br>
-If the sum is greater than or equal to the bias, then the neuron will output a 1, which indicates the opposite result. <br>
+All the inputs are multiplied by their respective weights, added together, and a mathematical function gets the result. <br> <br>
+In the simplest AI systems, this function is called a step function, which can only output a 0 or 1. <br> <br>
+If the sum is less than the bias, then the neuron will output a 0, which could indicate not-triangle (or, something different depending on the task). <br> <br>
+If the sum is greater than or equal to the bias, then the neuron will output a 1, which indicates the opposite result. <br> <br>
 An AI can be trained to make a decision about anything, where you have enough data and supervised labels.
 </p>
 
@@ -99,21 +99,21 @@ Conceptually, this means the program learns from failure, but not from success.
 </p>
 
 <p align="left">
-We pulled a donut out of the bag, and the program predicted that the item was a bagel. So, we will let the program know that it made the wrong choice, and it will consequently update its weights. <br>
+We pulled a donut out of the bag, and the program predicted that the item was a bagel. So, we will let the program know that it made the wrong choice, and it will consequently update its weights. <br> <br>
 When the weights update, the decision boundary changes. The datapoint we added is now below the decision boundary line and in the donut zone.
 </p>
 
 <img src="/assets/img/portfolio/project3/bagel-perceptron.png" width="500">
 
 <p align="left">
-Now, the program will classify another item with this mass and diameter as a donut. <br>
+Now, the program will classify another item with this mass and diameter as a donut. <br> <br>
 Suppose we pull out a second item with a mass of 40 grams and a diameter of 2.5 cm. We give this to the program, and it predicts that the item is a donut correctly. The data point appeared below the decision boundary in the donut zone.
 </p>
 
 <img src="/assets/img/portfolio/project3/bagel-perceptron-2.png" width="500">
 
 <p align="left">
-We let the program know that its prediction was correct, so the weights stay the same and so does the decision boundary. <br>
+We let the program know that its prediction was correct, so the weights stay the same and so does the decision boundary. <br> <br>
 Now, we can do this many more times to train the program's perceptron. 
 </p>
 

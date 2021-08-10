@@ -7,7 +7,7 @@ alt:
 caption:
   title: The Perceptron
   subtitle: Lesson 3
-  thumbnail: assets/img/portfolio/project2/donut-classification-2d-dboundary.png
+  thumbnail: assets/img/portfolio/project3/perceptron.png
 ---
 <p align="left">
 In 1958, a psychologist named Frank Rosenblatt was inspired by the Darmouth conference to create an artificial neuron. His goal was to teach this AI to classify images as triangles or not triangles using his supervision (hence, supervised learning). He called this machine <b>the perceptron</b>.
@@ -37,7 +37,7 @@ First the artificial neurons receives inputs multiplied by different weights, wh
 The threshold is represented by a special weight called the **bias**, which can be adjusted to raise or lower the neuron's eagerness to fire. <br>
 </p>
   
-<img src="/assets/img/portfolio/project2/housing-regression.png" width="500">
+<img src="/assets/img/portfolio/project3/perceptron.png" width="500">
 
 <p align="left">
 All the inputs are multiplied by their respective weights, added together, and a mathematical function gets the result. <br>

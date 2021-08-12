@@ -12,13 +12,17 @@ caption:
 <p align="left">
 In supervised learning, we have datasets where each example was labeled as either a positive or negative example (e.g. donut or bagel). For each example, we were told explicitly what the “right answer” is. <br> <br>
 
-In unsupervised learning, we are given data that does not have any labels. We’re given a dataset, and our goal is to find some type of structure in the data. <br> <br>
+In unsupervised learning, we are given data that does not have any labels. We’re given a dataset, and our goal is to find some type of structure in the data. 
+</p>
 
+<img src="assets/img/portfolio/project6/unsupervised-learning.png" width="500">
+
+<p align="left">
 Given the dataset, an unsupervised learning algorithm might decide that the data lives in two different clusters. This is called a clustering algorithm. <br> <br>
 
 Clustering can be used for many applications, such as 
 <ul> 
-<li> Organizing large computer clusters to make data centers work more efficiently </li>
+<li align="left"> Organizing large computer clusters to make data centers work more efficiently </li>
 <li> Identify cohesive groups of friends in social network analysis </li>
 <li> Group customers into different market segments to automatically and more efficiently sell or market to your
      different market segments together </li>
@@ -28,10 +32,10 @@ Clustering can be used for many applications, such as
 
 ### K-Means Clustering
 <p align="left">
-To better understand clustering, let’s look at an example. Let’s say we buy a packet of Iris seeds to plant in a garden. After the flowers bloom, it looks like there were several different species of irises mixed up in that one packet. We can use AI to help us analyze the garden. <br> <br> 
+To better understand clustering, let’s look at an example. Let’s say we buy a packet of iris seeds to plant in a garden. After the flowers bloom, it looks like there were several different species of irises mixed up in that one packet. We can use AI to help us analyze the garden. <br> <br> 
   
-To construct the model, we need to answer to key questions: <br> <br> 
-1. What observations can we measure? We could measure color, but all the Irises are purple, so that’s not the best way to help tell them apart. But, different irises seem to have different petal lengths and widths. <br> <br> 
+To construct the model, we need to answer to key questions: <br>
+1. What observations can we measure? We could measure color, but all the irises are purple, so that’s not the best way to help tell them apart. But, different irises seem to have different petal lengths and widths. <br>
 2. How do we want to represent the world? We will assume that there are k clusters in our data, but we do not know where they are. To help us, we can use the k-means clustering algorithm. <br> <br> 
   
 In particular, we want to calculate the mean by adding up all data points in a cluster and dividing by the total number of points. <br> <br> 

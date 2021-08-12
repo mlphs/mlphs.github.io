@@ -20,14 +20,12 @@ In unsupervised learning, we are given data that does not have any labels. We’
 <p align="left">
 Given the dataset, an unsupervised learning algorithm might decide that the data lives in two different clusters. This is called a clustering algorithm. <br> <br>
 
-Clustering can be used for many applications, such as 
-<ul> 
-<li align="left"> Organizing large computer clusters to make data centers work more efficiently </li>
-<li> Identify cohesive groups of friends in social network analysis </li>
-<li> Group customers into different market segments to automatically and more efficiently sell or market to your
-     different market segments together </li>
-<li> Perform astronomical data analysis to get interesting and useful theories about how galaxies are formed </li>
-</ul>
+Clustering can be used for many applications, such as <br>
+>> Organizing large computer clusters to make data centers work more efficiently <br>
+>> Identify cohesive groups of friends in social network analysis <br>
+>> Group customers into different market segments to automatically and more efficiently sell or market to your
+   different market segments together <br>
+>> Perform astronomical data analysis to get interesting and useful theories about how galaxies are formed <br>
 </p>
 
 ### K-Means Clustering

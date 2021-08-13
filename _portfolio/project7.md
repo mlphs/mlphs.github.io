@@ -20,7 +20,7 @@ Unlike other techniques, we only have to tell them at the very end of the task i
 Here are some real world examples of where RL is useful: <br>
 >> Self-driving cars: cars can use computer vision (to see roads, other cars, pedestrians, etc) and route guidance features (e.g. maps, GPS) to learn control
    braking, acceleration, turning, and more <br>
->> Game bots: We could build an agent to play a game in which we can write down the rules and logic 
+>> Game bots: We could build an agent to play a game in which we can write down the rules and logic <br>
 >> Business Analytics: We could train an agent to buy or sell stocks based on a variety of stock market indicators <br> <br>
 
 

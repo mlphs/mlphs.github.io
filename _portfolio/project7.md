@@ -1,11 +1,11 @@
 ---
-title: Unsupervised Learning
+title: Reinforcement Learning
 subtitle: Lesson 7
 image: assets/img/portfolio/project7/tic-tac-toe.png
 alt: 
 
 caption:
-  title: Unsupervised Learning
+  title: Reinforcement Learning
   subtitle: Lesson 7
   thumbnail: assets/img/portfolio/project7/tic-tac-toe.png
 ---

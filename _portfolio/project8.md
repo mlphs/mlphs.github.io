@@ -110,7 +110,7 @@ The representations of words that our model learns for one kind of task might no
 the model might learn that roses are made of icing and placed on cakes. But, the model won’t learn that cake roses are different from real roses. <br> <br> 
 
 Acquiring, encoding, and using written or spoken knowledge to help people is a huge and exciting task, because we use language for so many things! Every time you type or talk 
-to a computer, phone or other gadget, NLP is there. 
+to a computer, phone or other gadget, NLP is there.
 </p>
 
 

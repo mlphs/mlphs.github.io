@@ -33,7 +33,7 @@ en: &DEFAULT_EN
         
   ethics:
     title: "Ethics"
-    text: "Coming soon."
+    text: ""
     section: ethics
     
   outreach:

@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   nav:
     - title: "Our Mission"
       section: services
-      url: #mission
+      url: '#mission'
     - title: "Lessons"
       section: portfolio
     - title: "Ethics"

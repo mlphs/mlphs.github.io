@@ -38,12 +38,12 @@ en: &DEFAULT_EN
     
   outreach:
     title: "Outreach"
-    text: "Coming soon."
+    text: ""
     section: outreach
     
   portfolio:
     title: "Lessons"
-    text: "Coming soon."
+    text: ""
     section: portfolio
     closebutton: "Close Lesson"
 

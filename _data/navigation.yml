@@ -16,6 +16,7 @@ en: &DEFAULT_EN
       url: '#services'
     - title: "Lessons"
       section: portfolio
+      url: '#lessions'
     - title: "Ethics"
       section: ethics
     - title: "Outreach"
@@ -24,6 +25,7 @@ en: &DEFAULT_EN
       section: timeline
     - title: "Team"
       section: team
+      url: 'team'
 
 en-US:
   <<: *DEFAULT_EN
